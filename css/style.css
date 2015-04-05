@@ -9,18 +9,24 @@ body {
     background: #ccc;
 }
 
-h1, h2 {
+h1, h2, h3 {
     font-weight: normal;
-    padding-top: 18px; 
 }
 
 h1 {
     padding-left: 18px;
+    padding-top: 18px; 
     font-size: 2em;
 }
 
 h2 {
     font-size: 1.5em;
+    padding-bottom: 18px;
+}
+
+h3 {
+    padding-top: 18px;
+    font-size: 1em;
     padding-bottom: 18px;
 }
 
@@ -61,6 +67,7 @@ div.item {
     clear: both;
     width: 30px;
     height: 30px;
+    position: absolute;
 }
 
 div.item > div {
@@ -88,31 +95,29 @@ div#instruction {
     width: 400px;
 }
 
-div#buttons {
+div#menu {
     position: absolute;
     right: 18px;
-    width: 300px;
+    width: 206px;
     top: 100px;
+    bottom: 100px;
+    overflow: auto;
 }
 
 div.button {
-    float: right;
     padding: 9px;
-    width: 190px;
     background: #bf2f00;
     color: #fff;
     cursor: pointer;
     text-align: center;
 }
 
-div#log {
-    position: absolute;
-    right: 18px;
-    top: 158px;
-    width: 190px;
-    text-align: center;
-}
-
 div#instruction > ol {
     margin-left: 40px;
+}
+
+div#log {
+    margin-top: 18px;
+    margin-bottom: 18px;
+    text-align: center;
 }

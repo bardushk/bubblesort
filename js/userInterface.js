@@ -1,7 +1,10 @@
 ﻿$(document).ready(function () {
     $("#startButton").click(function () {
-        object.init();
+        object.init($('#container'));
         $('#log').html('в процессе...');
-        intervalId = setInterval(function () { object.doSortStep($('#container')); }, 50);
+        intervalId = setInterval(function () { object.doSortStep(); }, 50);
+    });
+    $(window).resize(function () {
+        object.init($('#container'));
     });
 });
