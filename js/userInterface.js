@@ -1,5 +1,7 @@
 ﻿$(document).ready(function () {
     $("#startButton").click(function () {
-        var intervalId = setInterval(function () { start(); }, 100);
+        object.init();
+        $('#log').html('в процессе...');
+        intervalId = setInterval(function () { object.doSortStep($('#container')); }, 50);
     });
 });
