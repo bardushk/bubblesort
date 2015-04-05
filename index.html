@@ -1,12 +1,33 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>Пример пузырьковой сортировки</title>
-        <script src="js/jquery-1.11.2.min.js"></script>
-        <script src="js/bubblesort.js"></script>
-    </head>
-    <body>
-        <h1>Пример пузырьковой сортировки</h1>
+<head>
+    <title>Пример пузырьковой сортировки</title>
+    <script src="js/jquery-1.11.2.min.js"></script>
+    <script src="js/bubblesort.js"></script>
+    <script src="js/userInterface.js"></script>
+    <link href="css/style.css" rel="stylesheet" />
+</head>
+<body>
+    <div id="page">
+        <h1>Пузырьковая сортировка</h1>
         <div id="container"></div>
-    </body>
+        <div id="instruction">
+            <h2>Демонстрационная страница</h2> 
+            <p>Предназначена для наглядной демонстрации алгоритма "Пузырьковой сортировки".</p>
+            <h2>Порядок работы со страницей</h2>
+            <ol>
+                <li>Нажите на кнопку "Пуск"</li>
+                <li>Наблюдайте за процессом сортировки</li>
+                <li>При необходимости повторите пункт 1</li>
+            </ol>
+        </div>
+        <div id="footer">
+            Вариант реализации тестового задание по теме JavaScript. Казань 2015
+        </div>
+        <div id="buttons">
+            <div class="button" id="startButton">Пуск</div>
+        </div>
+        <div id="log"></div>
+    </div>
+</body>
 </html>
