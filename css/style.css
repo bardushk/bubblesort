@@ -1,123 +1,123 @@
 * {
-    padding: 0;
-    margin: 0;
-    color: #ccc;
+   padding: 0;
+   margin: 0;
+   color: #ccc;
 }
 
 body {
-    font-family: 'Segoe UI', Frutiger, 'Frutiger Linotype', 'Dejavu Sans', 'Helvetica Neue', Arial, sans-serif;
-    background: #ccc;
+   font-family: 'Segoe UI', Frutiger, 'Frutiger Linotype', 'Dejavu Sans', 'Helvetica Neue', Arial, sans-serif;
+   background: #ccc;
 }
 
 h1, h2, h3 {
-    font-weight: normal;
+   font-weight: normal;
 }
 
 h1 {
-    padding-left: 18px;
-    padding-top: 18px; 
-    font-size: 2em;
+   padding-left: 18px;
+   padding-top: 18px; 
+   font-size: 2em;
 }
 
 h2 {
-    font-size: 1.5em;
-    padding-bottom: 18px;
+   font-size: 1.5em;
+   padding-bottom: 18px;
 }
 
 h3 {
-    padding-top: 18px;
-    font-size: 1em;
-    padding-bottom: 18px;
+   padding-top: 18px;
+   font-size: 1em;
+   padding-bottom: 18px;
 }
 
 div#page {
-    position: absolute;
-    width: 960px;
-    margin-left: -480px;
-    left: 50%;
-    background: #333;
-    top: 10px;
-    bottom: 10px;
-    -webkit-box-shadow: 0px 0px 10px 0px rgba(50, 50, 50, 0.75);
-    -moz-box-shadow:    0px 0px 10px 0px rgba(50, 50, 50, 0.75);
-    box-shadow:         0px 0px 10px 0px rgba(50, 50, 50, 0.75);
+   position: absolute;
+   width: 960px;
+   margin-left: -480px;
+   left: 50%;
+   background: #333;
+   top: 10px;
+   bottom: 10px;
+   -webkit-box-shadow: 0px 0px 10px 0px rgba(50, 50, 50, 0.75);
+   -moz-box-shadow:   0px 0px 10px 0px rgba(50, 50, 50, 0.75);
+   box-shadow:       0px 0px 10px 0px rgba(50, 50, 50, 0.75);
 }
 div#container {
-    position: absolute;
-    width: 200px;
-    left: 50%;
-    top: 100px;
-    background: #51BAFF;
-    padding-top: 10px;
-    bottom: 72px;   
-    overflow: hidden;
-    border-bottom: solid 18px #666;
-    border-left: solid 18px #666;
-    border-right: solid 18px #666;
-    border-radius: 0 0 90px 90px;
+   position: absolute;
+   width: 200px;
+   left: 50%;
+   top: 100px;
+   background: #51BAFF;
+   padding-top: 10px;
+   bottom: 72px;   
+   overflow: hidden;
+   border-bottom: solid 18px #666;
+   border-left: solid 18px #666;
+   border-right: solid 18px #666;
+   border-radius: 0 0 90px 90px;
 }
 
 div.item {
-    margin: auto; 
-    margin-top: 3px;
-    -webkit-box-shadow: 0px 0px 10px 0px rgba(50, 50, 50, 0.75);
-    -moz-box-shadow:    0px 0px 10px 0px rgba(50, 50, 50, 0.75);
-    box-shadow:         0px 0px 10px 0px rgba(50, 50, 50, 0.75);
-    border-radius: 50% 50% 15px 15px;
-    clear: both;
-    width: 30px;
-    height: 30px;
-    position: absolute;
+   margin: auto; 
+   margin-top: 3px;
+   -webkit-box-shadow: 0px 0px 10px 0px rgba(50, 50, 50, 0.75);
+   -moz-box-shadow:   0px 0px 10px 0px rgba(50, 50, 50, 0.75);
+   box-shadow:       0px 0px 10px 0px rgba(50, 50, 50, 0.75);
+   border-radius: 50% 50% 15px 15px;
+   clear: both;
+   width: 30px;
+   height: 30px;
+   position: absolute;
 }
 
 div.item > div {
-    padding-top: 3px;
-    text-align: center;
-    color: #fff;
+   padding-top: 3px;
+   text-align: center;
+   color: #fff;
 }
 
 div#footer {
-    position: absolute;
-    border-top: solid 1px #ccc;
-    padding-top: 10px;
-    bottom: 9px;
-    margin: 9px;
-    left: 9px;
-    right: 9px;
-    text-align: right;
-    font-size: 0.75em; 
+   position: absolute;
+   border-top: solid 1px #ccc;
+   padding-top: 10px;
+   bottom: 9px;
+   margin: 9px;
+   left: 9px;
+   right: 9px;
+   text-align: right;
+   font-size: 0.75em; 
 }
 
 div#instruction {
-    position: absolute;
-    left: 18px;
-    top: 100px;
-    width: 400px;
+   position: absolute;
+   left: 18px;
+   top: 100px;
+   width: 400px;
 }
 
 div#menu {
-    position: absolute;
-    right: 18px;
-    width: 206px;
-    top: 100px;
-    bottom: 100px;
-    overflow: auto;
+   position: absolute;
+   right: 18px;
+   width: 206px;
+   top: 100px;
+   bottom: 100px;
+   overflow: auto;
 }
 
 div.button {
-    padding: 9px;
-    background: #bf2f00;
-    color: #fff;
-    cursor: pointer;
-    text-align: center;
+   padding: 9px;
+   background: #bf2f00;
+   color: #fff;
+   cursor: pointer;
+   text-align: center;
 }
 
 div#instruction > ol {
-    margin-left: 40px;
+   margin-left: 40px;
 }
 
 div#log {
-    margin-top: 18px;
-    margin-bottom: 18px;
-    text-align: center;
+   margin-top: 18px;
+   margin-bottom: 18px;
+   text-align: center;
 }
